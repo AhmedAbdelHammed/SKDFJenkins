@@ -1,4 +1,4 @@
-#Wed Sep 18 14:35:55 EET 2019
+#Wed Sep 18 14:48:35 EET 2019
 timeout_ajax=20000
 timeout_find=2000
 Testdata=Testdata.xls
@@ -17,5 +17,5 @@ Testdata_Id=Dev
 timeout_page=120000
 targetType=Chrome
 Testsuite_Id=TS001
-autocloseTarget=true
 hubServerIP=Local
+autocloseTarget=true
