@@ -1,0 +1,53 @@
+{
+  "desiredCapabilities" : {
+    "acceptSslCerts" : true,
+    "applicationCacheEnabled" : true,
+    "browserConnectionEnabled" : true,
+    "browserName" : "chrome",
+    "databaseEnabled" : true,
+    "elementScrollBehavior" : 1,
+    "javascriptEnabled" : true,
+    "locationContextEnabled" : true,
+    "nativeEvents" : true,
+    "platform" : "ANY",
+    "proxy" : {
+      "proxyType" : "SYSTEM",
+      "autodetect" : false,
+      "ftpProxy" : null,
+      "httpProxy" : null,
+      "noProxy" : null,
+      "sslProxy" : null,
+      "socksProxy" : null,
+      "socksVersion" : null,
+      "socksUsername" : null,
+      "socksPassword" : null,
+      "proxyAutoconfigUrl" : null
+    },
+    "rotatable" : false,
+    "unexpectedAlertBehaviour" : "ignore",
+    "unhandledPromptBehavior" : "ignore",
+    "version" : "",
+    "webStorageEnabled" : true,
+    "webdriver.remote.quietExceptions" : false
+  },
+  "chromeArguments" : [ "ignore-certificate-errors", "ignore-autocomplete-off-autofill", "new-window", "test-type", "start-maximized", "fast-start" ],
+  "experimentalOptions" : {
+    "mobileEmulation" : {
+      "deviceName" : "Samsung Galaxy S4"
+    },
+    "prefs" : {
+      "profile.default_content_settings.popups" : 0
+    }
+  },
+  "config" : {
+    "mobileEmulation" : false,
+    "saveBrowserLogs" : false,
+    "timeout_page" : 0,
+    "auto_select_window" : false,
+    "auto_maxmize" : false,
+    "timeout_ajax" : 0,
+    "timeout_jscript" : 0,
+    "target_path" : "",
+    "timeout_find" : 0
+  }
+}

@@ -1,0 +1,1138 @@
+(02:23:37.182) - Info: Project (C:/India/SKDF/GoogleProject/) loaded.
+(02:23:37.185) - Info: Target (Name:Desktop, Platform:Desktop, Type:Desktop, Hub IP:Local, Default:false) loaded.
+(02:23:37.185) - Info: Target (Name:Desktop, Platform:Desktop, Type:Desktop, Hub IP:Local, Default:false) added.
+(02:23:37.187) - Info: Target (Name:Web, Platform:Web, Type:Any, Hub IP:Local, Default:true) loaded.
+(02:23:37.191) - Info: Target (Name:Web, Platform:Web, Type:Chrome, Hub IP:Local, Default:true) added.
+(02:23:37.194) - Info: UIMap file C:/India/SKDF/GoogleProject/UIMap.xls loaded with 1 sheets in 3 mSec
+(02:23:37.196) - Info: Testdata file C:/India/SKDF/GoogleProject/Testdata.xls loaded with 3 in 1 mSec
+(02:23:37.201) - Info: Testscript (TC001) loaded with 0 step
+(02:23:37.202) - Info: Testscript file (C:\India\SKDF\GoogleProject\Scripts\LoginSuite.xls) loaded with 1 script in 2 mSec
+(02:23:37.203) - Info: (LoginSuite) Loaded
+(02:23:37.206) - Warning: Skipping error handling script execution, File name not exist
+(02:23:37.206) - Info: Testsuite C:/India/SKDF/GoogleProject/Testsuite.xlsloaded with 1 suites in 2 mSec
+(02:23:37.246) - Info: Project C:/India/SKDF/GoogleProject/GoogleProject.prj updated.
+(02:23:37.249) - Info: Testscript (TC001) loaded with 0 step
+(02:23:37.249) - Info: Testscript file (C:/India/SKDF/GoogleProject/Scripts/LoginSuite.xls) loaded with 1 script in 1 mSec
+(02:23:37.262) - Info: UIMap file C:/India/SKDF/GoogleProject/UIMap.xls loaded with 1 sheets in 2 mSec
+(02:23:37.278) - Info: Default Target: Chrome
+	http.proxyHost=85.205.122.146
+	http.proxyPort=8080
+	https.proxyHost=85.205.122.146
+	https.proxyPort=8080
+(02:23:37.281) - Info: Proxy enabled.
+(02:23:46.402) - Info: Verify Authentication >> https://alm.vodafone.com/qcbin/rest/is-authenticated
+(02:23:46.802) - Info: Authenticated to user (eg_eelkafrawy)
+(02:23:46.803) - Info: Verify access >> https://alm.vodafone.com/qcbin/api/domains/TSS_COE/projects, user (eg_eelkafrawy)
+(02:23:47.218) - Info: Already Authenticated
+(02:23:47.221) - Info: ALM connected: true
+(02:23:47.407) - Info: Local version=v2.2.0, Server version=v2.3.3
+(02:24:08.920) - Info: input data 
+(02:24:22.612) - Info: input data 
+(02:24:30.988) - Info: Page renamed from (Home) to (SearchPage).
+(02:24:30.989) - Info: Rename sheet (Home) to (SearchPage)
+(02:24:32.199) - Info: input data 
+(02:25:20.111) - Info: Object (SearchPage_SearchFieldLocator) added to page (SearchPage)
+(02:25:20.186) - Info: row added correctly
+(02:25:20.187) - Info: Add row ([SearchPage_SearchFieldLocator, Id, fakebox-input, Textbox, ]) to sheet (SearchPage)
+(02:25:31.866) - Info: Map file C:/India/SKDF/GoogleProject/UIMap.xls saved
+(02:25:31.868) - Info: UIMap file C:/India/SKDF/GoogleProject/UIMap.xls loaded with 1 sheets in 1 mSec
+(02:25:38.387) - Info: input data 
+(02:26:34.539) - Info: Add step (0)
+(02:26:34.544) - Info: row added correctly
+(02:26:34.544) - Info: Add row ([=ROW()-5, Web, , , , Open, https://www.google.com, Yes, Yes, Open Url - No object - Data required]) to sheet (TC001)
+(02:26:37.532) - Info: input data 
+(02:27:06.553) - Info: Add step (1)
+(02:27:06.558) - Info: row added correctly
+(02:27:06.558) - Info: Add row ([=ROW()-5, Web, SearchPage, SearchPage_SearchFieldLocator, , Type, Testing, Yes, Yes, Type in an editable webelement - Object required - Data required]) to sheet (TC001)
+ - Script1 , TC001 , Test Name , true , 1 , []
+ - Script1 , TC001 , Test Name , true , 1 , []
+
+******************** Starting test script execution ********************
+Activity: Script1
+Test script Id: TC001
+Test script Name: Test Name
+Test script Description: Test Description
+Number of steps: 2
+(02:27:09.147) - Info: Chrome config created.
+(02:27:09.150) - Info: Chrome config loaded.
+(02:27:09.150) - Info: Target Type: Chrome
+(02:27:09.150) - Info: Capabilities:
+(02:27:09.151) - Info: Capability: acceptSslCerts=true
+(02:27:09.151) - Info: Capability: applicationCacheEnabled=true
+(02:27:09.151) - Info: Capability: browserConnectionEnabled=true
+(02:27:09.151) - Info: Capability: browserName=chrome
+(02:27:09.152) - Info: Capability: databaseEnabled=true
+(02:27:09.152) - Info: Capability: elementScrollBehavior=1
+(02:27:09.153) - Info: Capability: javascriptEnabled=true
+(02:27:09.153) - Info: Capability: locationContextEnabled=true
+(02:27:09.153) - Info: Capability: nativeEvents=true
+(02:27:09.154) - Info: Capability: platform=ANY
+(02:27:09.154) - Info: Capability: proxy={proxyType=SYSTEM, autodetect=false, ftpProxy=null, httpProxy=null, noProxy=null, sslProxy=null, socksProxy=null, socksVersion=null, socksUsername=null, socksPassword=null, proxyAutoconfigUrl=null}
+(02:27:09.154) - Info: Capability: rotatable=false
+(02:27:09.154) - Info: Capability: unexpectedAlertBehaviour=ignore
+(02:27:09.155) - Info: Capability: unhandledPromptBehavior=ignore
+(02:27:09.155) - Info: Capability: version=
+(02:27:09.155) - Info: Capability: webStorageEnabled=true
+(02:27:09.155) - Info: Capability: webdriver.remote.quietExceptions=false
+(02:27:09.156) - Info: Configurations:
+(02:27:09.156) - Info: Config: targetPath=
+(02:27:09.156) - Info: Config: timeoutPage=120000
+(02:27:09.157) - Info: Config: timeoutFind=2000
+(02:27:09.157) - Info: Config: timeoutJScript=5000
+(02:27:09.157) - Info: Config: timeoutAjax=20000
+(02:27:09.157) - Info: Config: serverAddress=Local
+(02:27:09.157) - Info: Config: autoSelectWindow=false
+(02:27:09.157) - Info: Config: autoMaximize=false
+(02:27:09.158) - Info: Config: mobileEmulation=false
+Starting ChromeDriver 2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5) on port 30517
+Only local connections are allowed.
+(02:27:17.969) - Info: Browser opened.
+=ROW()-5) ,  , () , Open , https://www.google.com() , true , true
+Status: Passed - Execution time: 2977
+Result: {&lt;}font color="blue"{&gt;}Open Url - No object - Data required{&lt;}/font{&gt;}
+Page (Google) loaded.
+{&lt;}a href="https://www.google.com/?safe=active&ssui=on"{&gt;}Page url{&lt;}/a{&gt;}
+Time: 18/09/2019 02:27:20.946 PM GMT+0200
+(02:27:21.588) - Info: Browser is open.
+=ROW()-5) SearchPage, SearchPage_SearchFieldLocator , () , Type , Testing() , true , true
+(02:27:23.639) - Error: Failed to write (Testing) in Object.
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"fakebox-input"}
+  (Session info: chrome=77.0.3865.75)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'E0472961', ip: '10.236.12.127', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\ABDELH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:59991}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 77.0.3865.75, webStorageEnabled: true}
+Session ID: cdd9a23cf97ca2a50af4a9bdd3d3f958
+*** Element info: {Using=id, value=fakebox-input}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:363)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+	at com.vodafone.skdf.targets.target_elements.TargetElement.Find_WebElement(Unknown Source)
+	at com.vodafone.skdf.targets.target_elements.TargetElement.<init>(Unknown Source)
+	at com.vodafone.skdf.targets.target_elements.WebTargetElement.<init>(Unknown Source)
+	at com.vodafone.skdf.targets.WebTarget.getTargetElement(Unknown Source)
+	at com.vodafone.skdf.targets.target_actions.WebTargetActions.type(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestCase.run(TestCase.java:121)
+	at com.vodafone.skdf.targets.target_actions.TargetActions.run(Unknown Source)
+	at com.vodafone.skdf.targets.WebTarget.performAction(Unknown Source)
+	at com.vodafone.skdf.targets.TargetManager.performAction(Unknown Source)
+	at Scripts.Pac_Script1.Script_Test_Name.executeTest(Script_Test_Name.java:92)
+	at Scripts.Pac_Script1.Script_Test_Name.Script_Test_Name(Script_Test_Name.java:86)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:94)
+	at com.vodafone.skdf.Main.runTest(Unknown Source)
+	at com.vodafone.skdf.ide.Actions$ScriptManager$4.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:748)
+Status: Failed - Execution time: 2153
+Result: {&lt;}font color="blue"{&gt;}Type in an editable webelement - Object required - Data required{&lt;}/font{&gt;}
+Failed to write (Testing) in Object.
+no such element: Unable to locate element: {"method":"id","selector":"fakebox-input"}
+  (Session info: chrome=77.0.3865.75)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+
+{&lt;}a href="#" onclick="printStacktrace=ROW()-5() "{&gt;}Stack Trace{&lt;}/a{&gt;}{&lt;}script{&gt;} function printStacktrace=ROW()-5() { var myWindow = window.open("", "_blank"); myWindow.document.write("org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"fakebox-input"}
+  (Session info: chrome=77.0.3865.75)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'E0472961', ip: '10.236.12.127', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\ABDELH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:59991}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 77.0.3865.75, webStorageEnabled: true}
+Session ID: cdd9a23cf97ca2a50af4a9bdd3d3f958
+*** Element info: {Using=id, value=fakebox-input}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:363)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+	at com.vodafone.skdf.targets.target_elements.TargetElement.Find_WebElement(Unknown Source)
+	at com.vodafone.skdf.targets.target_elements.TargetElement.<init>(Unknown Source)
+	at com.vodafone.skdf.targets.target_elements.WebTargetElement.<init>(Unknown Source)
+	at com.vodafone.skdf.targets.WebTarget.getTargetElement(Unknown Source)
+	at com.vodafone.skdf.targets.target_actions.WebTargetActions.type(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestCase.run(TestCase.java:121)
+	at com.vodafone.skdf.targets.target_actions.TargetActions.run(Unknown Source)
+	at com.vodafone.skdf.targets.WebTarget.performAction(Unknown Source)
+	at com.vodafone.skdf.targets.TargetManager.performAction(Unknown Source)
+	at Scripts.Pac_Script1.Script_Test_Name.executeTest(Script_Test_Name.java:92)
+	at Scripts.Pac_Script1.Script_Test_Name.Script_Test_Name(Script_Test_Name.java:86)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:94)
+	at com.vodafone.skdf.Main.runTest(Unknown Source)
+	at com.vodafone.skdf.ide.Actions$ScriptManager$4.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:748)
+");}{&lt;}/script{&gt;}
+{&lt;}a href="https://www.google.com/?safe=active&ssui=on"{&gt;}Page url{&lt;}/a{&gt;}
+Time: 18/09/2019 02:27:23.742 PM GMT+0200
+
+
+Status: Failed
+Coverage: 100.0 %
+Execution Time: 15158 mSec
+
+******************** Test script execution end ********************
+(02:27:24.301) - Info: <a href="file:/C:/India/SKDF/GoogleProject/Results/TC001/TC001_18092019_022721.html" target="_blank">Link</a>
+(02:27:53.224) - Error: Object not found. no such element: Unable to locate element: {"method":"id","selector":"fakebox-input"}
+  (Session info: chrome=77.0.3865.75)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'E0472961', ip: '10.236.12.127', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\ABDELH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:59991}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 77.0.3865.75, webStorageEnabled: true}
+Session ID: cdd9a23cf97ca2a50af4a9bdd3d3f958
+*** Element info: {Using=id, value=fakebox-input}
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"fakebox-input"}
+  (Session info: chrome=77.0.3865.75)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'E0472961', ip: '10.236.12.127', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\ABDELH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:59991}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 77.0.3865.75, webStorageEnabled: true}
+Session ID: cdd9a23cf97ca2a50af4a9bdd3d3f958
+*** Element info: {Using=id, value=fakebox-input}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:363)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+	at com.vodafone.skdf.targets.target_elements.TargetElement.Find_WebElement(Unknown Source)
+	at com.vodafone.skdf.targets.target_elements.TargetElement.<init>(Unknown Source)
+	at com.vodafone.skdf.targets.target_elements.WebTargetElement.<init>(Unknown Source)
+	at com.vodafone.skdf.targets.WebTarget.getTargetElement(Unknown Source)
+	at com.vodafone.skdf.ide.Actions$MapManager.loadObject(Unknown Source)
+	at com.vodafone.skdf.ide.UI$65.valueChanged(Unknown Source)
+	at javax.swing.JList.fireSelectionValueChanged(JList.java:1802)
+	at javax.swing.JList$ListSelectionHandler.valueChanged(JList.java:1816)
+	at javax.swing.DefaultListSelectionModel.fireValueChanged(DefaultListSelectionModel.java:184)
+	at javax.swing.DefaultListSelectionModel.fireValueChanged(DefaultListSelectionModel.java:154)
+	at javax.swing.DefaultListSelectionModel.setValueIsAdjusting(DefaultListSelectionModel.java:685)
+	at javax.swing.JList.setValueIsAdjusting(JList.java:2146)
+	at javax.swing.plaf.basic.BasicListUI$Handler.mouseReleased(BasicListUI.java:2796)
+	at java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:290)
+	at java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:289)
+	at java.awt.Component.processMouseEvent(Component.java:6539)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6304)
+	at java.awt.Container.processEvent(Container.java:2239)
+	at java.awt.Component.dispatchEventImpl(Component.java:4889)
+	at java.awt.Container.dispatchEventImpl(Container.java:2297)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4535)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476)
+	at java.awt.Container.dispatchEventImpl(Container.java:2283)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:760)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+	at java.awt.EventQueue$4.run(EventQueue.java:733)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:730)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+(02:28:20.677) - Info: input data 
+(02:28:29.432) - Info: Object (SearchPage_SearchFieldLocator) updated (SearchPage_SearchFieldLocator,Id,fakebox-input,Textbox,) in (SearchPage)
+(02:28:29.448) - Info: row added correctly
+(02:28:29.448) - Info: Edit row [SearchPage_SearchFieldLocator, Id, fakebox-input, Textbox, ] in sheet (SearchPage)
+(02:28:29.573) - Error: Object not found. no such element: Unable to locate element: {"method":"id","selector":"fakebox-input"}
+  (Session info: chrome=77.0.3865.75)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'E0472961', ip: '10.236.12.127', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\ABDELH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:59991}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 77.0.3865.75, webStorageEnabled: true}
+Session ID: cdd9a23cf97ca2a50af4a9bdd3d3f958
+*** Element info: {Using=id, value=fakebox-input}
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"fakebox-input"}
+  (Session info: chrome=77.0.3865.75)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'E0472961', ip: '10.236.12.127', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\ABDELH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:59991}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 77.0.3865.75, webStorageEnabled: true}
+Session ID: cdd9a23cf97ca2a50af4a9bdd3d3f958
+*** Element info: {Using=id, value=fakebox-input}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:363)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+	at com.vodafone.skdf.targets.target_elements.TargetElement.Find_WebElement(Unknown Source)
+	at com.vodafone.skdf.targets.target_elements.TargetElement.<init>(Unknown Source)
+	at com.vodafone.skdf.targets.target_elements.WebTargetElement.<init>(Unknown Source)
+	at com.vodafone.skdf.targets.WebTarget.getTargetElement(Unknown Source)
+	at com.vodafone.skdf.ide.Actions$MapManager.loadObject(Unknown Source)
+	at com.vodafone.skdf.ide.UI$65.valueChanged(Unknown Source)
+	at javax.swing.JList.fireSelectionValueChanged(JList.java:1802)
+	at javax.swing.JList$ListSelectionHandler.valueChanged(JList.java:1816)
+	at javax.swing.DefaultListSelectionModel.fireValueChanged(DefaultListSelectionModel.java:184)
+	at javax.swing.DefaultListSelectionModel.fireValueChanged(DefaultListSelectionModel.java:164)
+	at javax.swing.DefaultListSelectionModel.fireValueChanged(DefaultListSelectionModel.java:211)
+	at javax.swing.DefaultListSelectionModel.changeSelection(DefaultListSelectionModel.java:405)
+	at javax.swing.DefaultListSelectionModel.changeSelection(DefaultListSelectionModel.java:415)
+	at javax.swing.DefaultListSelectionModel.setSelectionInterval(DefaultListSelectionModel.java:459)
+	at javax.swing.JList.setSelectedIndex(JList.java:2216)
+	at javax.swing.JList.setSelectedValue(JList.java:2366)
+	at com.vodafone.skdf.ide.Actions$MapManager.selectObject(Unknown Source)
+	at com.vodafone.skdf.ide.Actions$MapManager.editObjectOffline(Unknown Source)
+	at com.vodafone.skdf.ide.UI$101.actionPerformed(Unknown Source)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.AbstractButton.doClick(AbstractButton.java:376)
+	at javax.swing.plaf.basic.BasicMenuItemUI.doClick(BasicMenuItemUI.java:842)
+	at javax.swing.plaf.basic.BasicMenuItemUI$Handler.mouseReleased(BasicMenuItemUI.java:886)
+	at java.awt.Component.processMouseEvent(Component.java:6539)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6304)
+	at java.awt.Container.processEvent(Container.java:2239)
+	at java.awt.Component.dispatchEventImpl(Component.java:4889)
+	at java.awt.Container.dispatchEventImpl(Container.java:2297)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4535)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476)
+	at java.awt.Container.dispatchEventImpl(Container.java:2283)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:760)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+	at java.awt.EventQueue$4.run(EventQueue.java:733)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:730)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+(02:28:45.530) - Info: input data 
+(02:28:55.632) - Info: Object (SearchPage_SearchFieldLocator) updated (SearchPage_SearchFieldLocator,Name,q,Textbox,) in (SearchPage)
+(02:28:55.637) - Info: row added correctly
+(02:28:55.637) - Info: Edit row [SearchPage_SearchFieldLocator, Name, q, Textbox, ] in sheet (SearchPage)
+(02:28:58.343) - Info: Map file C:/India/SKDF/GoogleProject/UIMap.xls saved
+(02:28:58.348) - Info: UIMap file C:/India/SKDF/GoogleProject/UIMap.xls loaded with 1 sheets in 4 mSec
+(02:28:58.690) - Info: Script file C:/India/SKDF/GoogleProject/Scripts/LoginSuite.xls saved
+(02:28:58.692) - Info: Testscript (TC001) loaded with 2 step
+(02:28:58.693) - Info: Testscript file (C:/India/SKDF/GoogleProject/Scripts/LoginSuite.xls) loaded with 1 script in 2 mSec
+(02:28:58.710) - Info: Testscript (TC001) loaded with 2 step
+(02:28:58.710) - Info: Testscript file (C:\India\SKDF\GoogleProject\Scripts\LoginSuite.xls) loaded with 1 script in 1 mSec
+(02:28:58.711) - Info: (LoginSuite) Loaded
+(02:28:58.717) - Info: Project C:/India/SKDF/GoogleProject/GoogleProject.prj updated.
+(02:28:58.720) - Info: Testscript (TC001) loaded with 2 step
+(02:28:58.720) - Info: Testscript file (C:/India/SKDF/GoogleProject/Scripts/LoginSuite.xls) loaded with 1 script in 1 mSec
+ - Script1 , TC001 , Test Name , true , 1 , []
+ - Script1 , TC001 , Test Name , true , 1 , []
+
+******************** Starting test script execution ********************
+Activity: Script1
+Test script Id: TC001
+Test script Name: Test Name
+Test script Description: Test Description
+Number of steps: 2
+(02:29:01.844) - Info: Browser is open.
+1) ,  , () , Open , https://www.google.com() , true , true
+Status: Passed - Execution time: 1933
+Result: {&lt;}font color="blue"{&gt;}Open Url - No object - Data required{&lt;}/font{&gt;}
+Page (Google) loaded.
+{&lt;}a href="https://www.google.com/?safe=active&ssui=on"{&gt;}Page url{&lt;}/a{&gt;}
+Time: 18/09/2019 02:29:03.778 PM GMT+0200
+(02:29:04.312) - Info: Browser is open.
+2) SearchPage, SearchPage_SearchFieldLocator , () , Type , Testing() , true , true
+Status: Passed - Execution time: 553
+Result: {&lt;}font color="blue"{&gt;}Type in an editable webelement - Object required - Data required{&lt;}/font{&gt;}
+Write (Testing) in Textbox (SearchPage_SearchFieldLocator).
+{&lt;}a href="https://www.google.com/?safe=active&ssui=on"{&gt;}Page url{&lt;}/a{&gt;}
+Time: 18/09/2019 02:29:04.866 PM GMT+0200
+
+
+Status: Passed
+Coverage: 100.0 %
+Execution Time: 3448 mSec
+
+******************** Test script execution end ********************
+(02:29:05.285) - Info: <a href="file:/C:/India/SKDF/GoogleProject/Results/TC001/TC001_18092019_022904.html" target="_blank">Link</a>
+(02:29:15.008) - Info: input data 
+(02:30:02.932) - Info: Add step (2)
+(02:30:02.939) - Info: row added correctly
+(02:30:02.939) - Info: Add row ([=ROW()-5, Web, , , , Key Press, ENTER, Yes, Yes, ]) to sheet (TC001)
+(02:30:03.768) - Info: input data 
+(02:31:01.563) - Info: input data 
+(02:31:03.077) - Info: input data 
+(02:31:57.286) - Info: Object (SearchTitles) added to page (SearchPage)
+(02:31:57.288) - Info: row added correctly
+(02:31:57.288) - Info: Add row ([SearchTitles, Xpath, //*[@class='LC20lb'], Textbox, ]) to sheet (SearchPage)
+(02:31:57.386) - Error: Object not found. no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='LC20lb']"}
+  (Session info: chrome=77.0.3865.75)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'E0472961', ip: '10.236.12.127', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\ABDELH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:59991}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 77.0.3865.75, webStorageEnabled: true}
+Session ID: cdd9a23cf97ca2a50af4a9bdd3d3f958
+*** Element info: {Using=xpath, value=//*[@class='LC20lb']}
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='LC20lb']"}
+  (Session info: chrome=77.0.3865.75)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'E0472961', ip: '10.236.12.127', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\ABDELH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:59991}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 77.0.3865.75, webStorageEnabled: true}
+Session ID: cdd9a23cf97ca2a50af4a9bdd3d3f958
+*** Element info: {Using=xpath, value=//*[@class='LC20lb']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+	at com.vodafone.skdf.targets.target_elements.TargetElement.Find_WebElement(Unknown Source)
+	at com.vodafone.skdf.targets.target_elements.TargetElement.<init>(Unknown Source)
+	at com.vodafone.skdf.targets.target_elements.WebTargetElement.<init>(Unknown Source)
+	at com.vodafone.skdf.targets.WebTarget.getTargetElement(Unknown Source)
+	at com.vodafone.skdf.ide.Actions$MapManager.loadObject(Unknown Source)
+	at com.vodafone.skdf.ide.UI$65.valueChanged(Unknown Source)
+	at javax.swing.JList.fireSelectionValueChanged(JList.java:1802)
+	at javax.swing.JList$ListSelectionHandler.valueChanged(JList.java:1816)
+	at javax.swing.DefaultListSelectionModel.fireValueChanged(DefaultListSelectionModel.java:184)
+	at javax.swing.DefaultListSelectionModel.fireValueChanged(DefaultListSelectionModel.java:164)
+	at javax.swing.DefaultListSelectionModel.fireValueChanged(DefaultListSelectionModel.java:211)
+	at javax.swing.DefaultListSelectionModel.changeSelection(DefaultListSelectionModel.java:405)
+	at javax.swing.DefaultListSelectionModel.changeSelection(DefaultListSelectionModel.java:415)
+	at javax.swing.DefaultListSelectionModel.setSelectionInterval(DefaultListSelectionModel.java:459)
+	at javax.swing.JList.setSelectedIndex(JList.java:2216)
+	at javax.swing.JList.setSelectedValue(JList.java:2366)
+	at com.vodafone.skdf.ide.Actions$MapManager.selectObject(Unknown Source)
+	at com.vodafone.skdf.ide.Actions$MapManager.addObjectOffline(Unknown Source)
+	at com.vodafone.skdf.ide.UI$83.actionPerformed(Unknown Source)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.AbstractButton.doClick(AbstractButton.java:376)
+	at javax.swing.plaf.basic.BasicMenuItemUI.doClick(BasicMenuItemUI.java:842)
+	at javax.swing.plaf.basic.BasicMenuItemUI$Handler.mouseReleased(BasicMenuItemUI.java:886)
+	at java.awt.Component.processMouseEvent(Component.java:6539)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6304)
+	at java.awt.Container.processEvent(Container.java:2239)
+	at java.awt.Component.dispatchEventImpl(Component.java:4889)
+	at java.awt.Container.dispatchEventImpl(Container.java:2297)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4535)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476)
+	at java.awt.Container.dispatchEventImpl(Container.java:2283)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:760)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+	at java.awt.EventQueue$4.run(EventQueue.java:733)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:730)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+(02:32:05.291) - Error: Object not found. no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='LC20lb']"}
+  (Session info: chrome=77.0.3865.75)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'E0472961', ip: '10.236.12.127', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\ABDELH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:59991}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 77.0.3865.75, webStorageEnabled: true}
+Session ID: cdd9a23cf97ca2a50af4a9bdd3d3f958
+*** Element info: {Using=xpath, value=//*[@class='LC20lb']}
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='LC20lb']"}
+  (Session info: chrome=77.0.3865.75)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'E0472961', ip: '10.236.12.127', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\ABDELH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:59991}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 77.0.3865.75, webStorageEnabled: true}
+Session ID: cdd9a23cf97ca2a50af4a9bdd3d3f958
+*** Element info: {Using=xpath, value=//*[@class='LC20lb']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+	at com.vodafone.skdf.targets.target_elements.TargetElement.Find_WebElement(Unknown Source)
+	at com.vodafone.skdf.targets.target_elements.TargetElement.<init>(Unknown Source)
+	at com.vodafone.skdf.targets.target_elements.WebTargetElement.<init>(Unknown Source)
+	at com.vodafone.skdf.targets.WebTarget.getTargetElement(Unknown Source)
+	at com.vodafone.skdf.ide.Actions$MapManager.loadObject(Unknown Source)
+	at com.vodafone.skdf.ide.UI$65.valueChanged(Unknown Source)
+	at javax.swing.JList.fireSelectionValueChanged(JList.java:1802)
+	at javax.swing.JList$ListSelectionHandler.valueChanged(JList.java:1816)
+	at javax.swing.DefaultListSelectionModel.fireValueChanged(DefaultListSelectionModel.java:184)
+	at javax.swing.DefaultListSelectionModel.fireValueChanged(DefaultListSelectionModel.java:154)
+	at javax.swing.DefaultListSelectionModel.setValueIsAdjusting(DefaultListSelectionModel.java:685)
+	at javax.swing.JList.setValueIsAdjusting(JList.java:2146)
+	at javax.swing.plaf.basic.BasicListUI$Handler.mouseReleased(BasicListUI.java:2796)
+	at java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:290)
+	at java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:289)
+	at java.awt.Component.processMouseEvent(Component.java:6539)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6304)
+	at java.awt.Container.processEvent(Container.java:2239)
+	at java.awt.Component.dispatchEventImpl(Component.java:4889)
+	at java.awt.Container.dispatchEventImpl(Container.java:2297)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4535)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476)
+	at java.awt.Container.dispatchEventImpl(Container.java:2283)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:760)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+	at java.awt.EventQueue$4.run(EventQueue.java:733)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:730)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+(02:32:09.954) - Info: Map file C:/India/SKDF/GoogleProject/UIMap.xls saved
+(02:32:09.959) - Info: UIMap file C:/India/SKDF/GoogleProject/UIMap.xls loaded with 1 sheets in 3 mSec
+(02:32:10.187) - Error: Object not found. no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='LC20lb']"}
+  (Session info: chrome=77.0.3865.75)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'E0472961', ip: '10.236.12.127', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\ABDELH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:59991}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 77.0.3865.75, webStorageEnabled: true}
+Session ID: cdd9a23cf97ca2a50af4a9bdd3d3f958
+*** Element info: {Using=xpath, value=//*[@class='LC20lb']}
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='LC20lb']"}
+  (Session info: chrome=77.0.3865.75)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'E0472961', ip: '10.236.12.127', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\ABDELH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:59991}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 77.0.3865.75, webStorageEnabled: true}
+Session ID: cdd9a23cf97ca2a50af4a9bdd3d3f958
+*** Element info: {Using=xpath, value=//*[@class='LC20lb']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+	at com.vodafone.skdf.targets.target_elements.TargetElement.Find_WebElement(Unknown Source)
+	at com.vodafone.skdf.targets.target_elements.TargetElement.<init>(Unknown Source)
+	at com.vodafone.skdf.targets.target_elements.WebTargetElement.<init>(Unknown Source)
+	at com.vodafone.skdf.targets.WebTarget.getTargetElement(Unknown Source)
+	at com.vodafone.skdf.ide.Actions$MapManager.loadObject(Unknown Source)
+	at com.vodafone.skdf.ide.UI$65.valueChanged(Unknown Source)
+	at javax.swing.JList.fireSelectionValueChanged(JList.java:1802)
+	at javax.swing.JList$ListSelectionHandler.valueChanged(JList.java:1816)
+	at javax.swing.DefaultListSelectionModel.fireValueChanged(DefaultListSelectionModel.java:184)
+	at javax.swing.DefaultListSelectionModel.fireValueChanged(DefaultListSelectionModel.java:164)
+	at javax.swing.DefaultListSelectionModel.fireValueChanged(DefaultListSelectionModel.java:211)
+	at javax.swing.DefaultListSelectionModel.changeSelection(DefaultListSelectionModel.java:405)
+	at javax.swing.DefaultListSelectionModel.changeSelection(DefaultListSelectionModel.java:415)
+	at javax.swing.DefaultListSelectionModel.setSelectionInterval(DefaultListSelectionModel.java:459)
+	at javax.swing.JList.setSelectedIndex(JList.java:2216)
+	at javax.swing.JList.setSelectedValue(JList.java:2366)
+	at com.vodafone.skdf.ide.Actions$MapManager.selectObject(Unknown Source)
+	at com.vodafone.skdf.ide.Actions$MapManager$1.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:748)
+	at com.vodafone.skdf.ide.Actions$MapManager.loadMapFile(Unknown Source)
+	at com.vodafone.skdf.ide.Actions$FileManager.saveMap(Unknown Source)
+	at com.vodafone.skdf.ide.Actions$FileManager.saveMap(Unknown Source)
+	at com.vodafone.skdf.ide.Actions$FileManager.saveAll(Unknown Source)
+	at com.vodafone.skdf.ide.UI$55.dispatchKeyEvent(Unknown Source)
+	at java.awt.DefaultKeyboardFocusManager.preDispatchKeyEvent(DefaultKeyboardFocusManager.java:1097)
+	at java.awt.DefaultKeyboardFocusManager.typeAheadAssertions(DefaultKeyboardFocusManager.java:974)
+	at java.awt.DefaultKeyboardFocusManager.dispatchEvent(DefaultKeyboardFocusManager.java:800)
+	at java.awt.Component.dispatchEventImpl(Component.java:4760)
+	at java.awt.Container.dispatchEventImpl(Container.java:2297)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:760)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+	at java.awt.EventQueue$4.run(EventQueue.java:733)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:730)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+(02:32:10.218) - Info: Script file C:/India/SKDF/GoogleProject/Scripts/LoginSuite.xls saved
+(02:32:10.224) - Info: Testscript (TC001) loaded with 3 step
+(02:32:10.224) - Info: Testscript file (C:/India/SKDF/GoogleProject/Scripts/LoginSuite.xls) loaded with 1 script in 1 mSec
+(02:32:10.231) - Info: Testscript (TC001) loaded with 3 step
+(02:32:10.232) - Info: Testscript file (C:\India\SKDF\GoogleProject\Scripts\LoginSuite.xls) loaded with 1 script in 1 mSec
+(02:32:10.232) - Info: (LoginSuite) Loaded
+(02:32:10.235) - Info: Project C:/India/SKDF/GoogleProject/GoogleProject.prj updated.
+(02:32:10.238) - Info: Testscript (TC001) loaded with 3 step
+(02:32:10.238) - Info: Testscript file (C:/India/SKDF/GoogleProject/Scripts/LoginSuite.xls) loaded with 1 script in 1 mSec
+(02:32:12.411) - Info: input data 
+(02:32:51.105) - Error: Object not found. no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='LC20lb']"}
+  (Session info: chrome=77.0.3865.75)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'E0472961', ip: '10.236.12.127', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\ABDELH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:59991}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 77.0.3865.75, webStorageEnabled: true}
+Session ID: cdd9a23cf97ca2a50af4a9bdd3d3f958
+*** Element info: {Using=xpath, value=//*[@class='LC20lb']}
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='LC20lb']"}
+  (Session info: chrome=77.0.3865.75)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'E0472961', ip: '10.236.12.127', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\ABDELH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:59991}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 77.0.3865.75, webStorageEnabled: true}
+Session ID: cdd9a23cf97ca2a50af4a9bdd3d3f958
+*** Element info: {Using=xpath, value=//*[@class='LC20lb']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+	at com.vodafone.skdf.targets.target_elements.TargetElement.Find_WebElement(Unknown Source)
+	at com.vodafone.skdf.targets.target_elements.TargetElement.<init>(Unknown Source)
+	at com.vodafone.skdf.targets.target_elements.WebTargetElement.<init>(Unknown Source)
+	at com.vodafone.skdf.targets.WebTarget.getTargetElement(Unknown Source)
+	at com.vodafone.skdf.ide.Actions$MapManager.loadObject(Unknown Source)
+	at com.vodafone.skdf.ide.UI$65.valueChanged(Unknown Source)
+	at javax.swing.JList.fireSelectionValueChanged(JList.java:1802)
+	at javax.swing.JList$ListSelectionHandler.valueChanged(JList.java:1816)
+	at javax.swing.DefaultListSelectionModel.fireValueChanged(DefaultListSelectionModel.java:184)
+	at javax.swing.DefaultListSelectionModel.fireValueChanged(DefaultListSelectionModel.java:164)
+	at javax.swing.DefaultListSelectionModel.fireValueChanged(DefaultListSelectionModel.java:211)
+	at javax.swing.DefaultListSelectionModel.changeSelection(DefaultListSelectionModel.java:405)
+	at javax.swing.DefaultListSelectionModel.changeSelection(DefaultListSelectionModel.java:415)
+	at javax.swing.DefaultListSelectionModel.setSelectionInterval(DefaultListSelectionModel.java:459)
+	at javax.swing.JList.setSelectedIndex(JList.java:2216)
+	at javax.swing.JList.setSelectedValue(JList.java:2366)
+	at com.vodafone.skdf.ide.frames.StepDialog$14.actionPerformed(Unknown Source)
+	at javax.swing.JComboBox.fireActionEvent(JComboBox.java:1258)
+	at javax.swing.JComboBox.setSelectedItem(JComboBox.java:586)
+	at javax.swing.JComboBox.setSelectedIndex(JComboBox.java:622)
+	at javax.swing.plaf.basic.BasicComboPopup$Handler.mouseReleased(BasicComboPopup.java:868)
+	at java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:290)
+	at java.awt.Component.processMouseEvent(Component.java:6539)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at javax.swing.plaf.basic.BasicComboPopup$1.processMouseEvent(BasicComboPopup.java:517)
+	at java.awt.Component.processEvent(Component.java:6304)
+	at java.awt.Container.processEvent(Container.java:2239)
+	at java.awt.Component.dispatchEventImpl(Component.java:4889)
+	at java.awt.Container.dispatchEventImpl(Container.java:2297)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4535)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476)
+	at java.awt.Container.dispatchEventImpl(Container.java:2283)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:760)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+	at java.awt.EventQueue$4.run(EventQueue.java:733)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:730)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:109)
+	at java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:190)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:235)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:233)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:233)
+	at java.awt.Dialog.show(Dialog.java:1084)
+	at java.awt.Component.show(Component.java:1671)
+	at java.awt.Component.setVisible(Component.java:1623)
+	at java.awt.Window.setVisible(Window.java:1014)
+	at java.awt.Dialog.setVisible(Dialog.java:1005)
+	at com.vodafone.skdf.ide.frames.StepDialog.open(Unknown Source)
+	at com.vodafone.skdf.ide.Actions$ScriptManager.addStep(Unknown Source)
+	at com.vodafone.skdf.ide.UI$120.actionPerformed(Unknown Source)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.AbstractButton.doClick(AbstractButton.java:376)
+	at javax.swing.plaf.basic.BasicMenuItemUI.doClick(BasicMenuItemUI.java:842)
+	at javax.swing.plaf.basic.BasicMenuItemUI$Handler.mouseReleased(BasicMenuItemUI.java:886)
+	at java.awt.Component.processMouseEvent(Component.java:6539)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6304)
+	at java.awt.Container.processEvent(Container.java:2239)
+	at java.awt.Component.dispatchEventImpl(Component.java:4889)
+	at java.awt.Container.dispatchEventImpl(Container.java:2297)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4535)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476)
+	at java.awt.Container.dispatchEventImpl(Container.java:2283)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:760)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+	at java.awt.EventQueue$4.run(EventQueue.java:733)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:730)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+(02:32:58.358) - Info: Add step (3)
+(02:32:58.365) - Info: row added correctly
+(02:32:58.366) - Info: Add row ([=ROW()-5, Web, SearchPage, SearchTitles, , Assert Displayed, TRUE, Yes, Yes, ]) to sheet (TC001)
+(02:32:59.149) - Info: input data 
+(02:33:00.838) - Info: Script file C:/India/SKDF/GoogleProject/Scripts/LoginSuite.xls saved
+(02:33:00.842) - Info: Testscript (TC001) loaded with 4 step
+(02:33:00.843) - Info: Testscript file (C:/India/SKDF/GoogleProject/Scripts/LoginSuite.xls) loaded with 1 script in 4 mSec
+(02:33:00.917) - Info: Testscript (TC001) loaded with 4 step
+(02:33:00.919) - Info: Testscript file (C:\India\SKDF\GoogleProject\Scripts\LoginSuite.xls) loaded with 1 script in 3 mSec
+(02:33:00.919) - Info: (LoginSuite) Loaded
+(02:33:00.922) - Info: Project C:/India/SKDF/GoogleProject/GoogleProject.prj updated.
+(02:33:00.936) - Info: Testscript (TC001) loaded with 4 step
+(02:33:00.937) - Info: Testscript file (C:/India/SKDF/GoogleProject/Scripts/LoginSuite.xls) loaded with 1 script in 1 mSec
+ - Script1 , TC001 , Test Name , true , 1 , []
+ - Script1 , TC001 , Test Name , true , 1 , []
+
+******************** Starting test script execution ********************
+Activity: Script1
+Test script Id: TC001
+Test script Name: Test Name
+Test script Description: Test Description
+Number of steps: 4
+(02:33:02.373) - Info: Browser is open.
+1) ,  , () , Open , https://www.google.com() , true , true
+Status: Passed - Execution time: 1670
+Result: {&lt;}font color="blue"{&gt;}Open Url - No object - Data required{&lt;}/font{&gt;}
+Page (Google) loaded.
+{&lt;}a href="https://www.google.com/?safe=active&ssui=on"{&gt;}Page url{&lt;}/a{&gt;}
+Time: 18/09/2019 02:33:04.044 PM GMT+0200
+(02:33:04.524) - Info: Browser is open.
+2) SearchPage, SearchPage_SearchFieldLocator , () , Type , Testing() , true , true
+Status: Passed - Execution time: 497
+Result: {&lt;}font color="blue"{&gt;}Type in an editable webelement - Object required - Data required{&lt;}/font{&gt;}
+Write (Testing) in Textbox (SearchPage_SearchFieldLocator).
+{&lt;}a href="https://www.google.com/?safe=active&ssui=on"{&gt;}Page url{&lt;}/a{&gt;}
+Time: 18/09/2019 02:33:05.021 PM GMT+0200
+(02:33:05.409) - Info: Browser is open.
+3) ,  , () , Key Press , ENTER() , true , true
+Status: Passed - Execution time: 2347
+Result: Press ENTER key/s.
+{&lt;}a href="https://www.google.com/search?source=hp&ei=_iOCXY_qN87KwQKlsYyABA&q=Testing&oq=Testing&gs_l=psy-ab.3..0l10.1252.1321..2071...0.0..1.216.747.0j3j1......0....1..gws-wiz.......0i131.3XxyDAymYBY&ved=0ahUKEwiP4YHOsNrkAhVOZVAKHaUYA0AQ4dUDCAg&uact=5&safe=active&ssui=on"{&gt;}Page url{&lt;}/a{&gt;}
+Time: 18/09/2019 02:33:07.757 PM GMT+0200
+(02:33:08.278) - Info: Browser is open.
+4) SearchPage, SearchTitles , () , Assert Displayed , TRUE() , true , true
+Status: Passed - Execution time: 102
+Result: Assert Displayed = true
+{&lt;}a href="https://www.google.com/search?source=hp&ei=_iOCXY_qN87KwQKlsYyABA&q=Testing&oq=Testing&gs_l=psy-ab.3..0l10.1252.1321..2071...0.0..1.216.747.0j3j1......0....1..gws-wiz.......0i131.3XxyDAymYBY&ved=0ahUKEwiP4YHOsNrkAhVOZVAKHaUYA0AQ4dUDCAg&uact=5&safe=active&ssui=on"{&gt;}Page url{&lt;}/a{&gt;}
+Time: 18/09/2019 02:33:08.381 PM GMT+0200
+
+
+Status: Passed
+Coverage: 100.0 %
+Execution Time: 6533 mSec
+
+******************** Test script execution end ********************
+(02:33:08.902) - Info: <a href="file:/C:/India/SKDF/GoogleProject/Results/TC001/TC001_18092019_023304.html" target="_blank">Link</a>
+ - Script1 , TC001 , Test Name , true , 1 , []
+ - Script1 , TC001 , Test Name , true , 1 , []
+
+******************** Starting test script execution ********************
+Activity: Script1
+Test script Id: TC001
+Test script Name: Test Name
+Test script Description: Test Description
+Number of steps: 4
+(02:33:33.450) - Warning: Failed to get window state.
+(02:33:33.466) - Info: Chrome config loaded.
+(02:33:33.467) - Info: Target Type: Chrome
+(02:33:33.468) - Info: Capabilities:
+(02:33:33.469) - Info: Capability: acceptSslCerts=true
+(02:33:33.470) - Info: Capability: applicationCacheEnabled=true
+(02:33:33.470) - Info: Capability: browserConnectionEnabled=true
+(02:33:33.471) - Info: Capability: browserName=chrome
+(02:33:33.472) - Info: Capability: databaseEnabled=true
+(02:33:33.473) - Info: Capability: elementScrollBehavior=1
+(02:33:33.480) - Info: Capability: javascriptEnabled=true
+(02:33:33.482) - Info: Capability: locationContextEnabled=true
+(02:33:33.483) - Info: Capability: nativeEvents=true
+(02:33:33.484) - Info: Capability: platform=ANY
+(02:33:33.485) - Info: Capability: proxy={proxyType=SYSTEM, autodetect=false, ftpProxy=null, httpProxy=null, noProxy=null, sslProxy=null, socksProxy=null, socksVersion=null, socksUsername=null, socksPassword=null, proxyAutoconfigUrl=null}
+(02:33:33.486) - Info: Capability: rotatable=false
+(02:33:33.488) - Info: Capability: unexpectedAlertBehaviour=ignore
+(02:33:33.494) - Info: Capability: unhandledPromptBehavior=ignore
+(02:33:33.495) - Info: Capability: version=
+(02:33:33.497) - Info: Capability: webStorageEnabled=true
+(02:33:33.498) - Info: Capability: webdriver.remote.quietExceptions=false
+(02:33:33.499) - Info: Configurations:
+(02:33:33.499) - Info: Config: targetPath=
+(02:33:33.502) - Info: Config: timeoutPage=120000
+(02:33:33.502) - Info: Config: timeoutFind=2000
+(02:33:33.503) - Info: Config: timeoutJScript=5000
+(02:33:33.507) - Info: Config: timeoutAjax=20000
+(02:33:33.508) - Info: Config: serverAddress=Local
+(02:33:33.509) - Info: Config: autoSelectWindow=false
+(02:33:33.510) - Info: Config: autoMaximize=false
+(02:33:33.511) - Info: Config: mobileEmulation=false
+Starting ChromeDriver 2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5) on port 7172
+Only local connections are allowed.
+(02:33:42.565) - Info: Browser opened.
+1) ,  , () , Open , https://www.google.com() , true , true
+Status: Passed - Execution time: 3392
+Result: {&lt;}font color="blue"{&gt;}Open Url - No object - Data required{&lt;}/font{&gt;}
+Page (Google) loaded.
+{&lt;}a href="https://www.google.com/?safe=active&ssui=on"{&gt;}Page url{&lt;}/a{&gt;}
+Time: 18/09/2019 02:33:45.960 PM GMT+0200
+(02:33:46.518) - Info: Browser is open.
+2) SearchPage, SearchPage_SearchFieldLocator , () , Type , Testing() , true , true
+Status: Passed - Execution time: 754
+Result: {&lt;}font color="blue"{&gt;}Type in an editable webelement - Object required - Data required{&lt;}/font{&gt;}
+Write (Testing) in Textbox (SearchPage_SearchFieldLocator).
+{&lt;}a href="https://www.google.com/?safe=active&ssui=on"{&gt;}Page url{&lt;}/a{&gt;}
+Time: 18/09/2019 02:33:47.275 PM GMT+0200
+(02:33:47.758) - Info: Browser is open.
+3) ,  , () , Key Press , ENTER() , true , true
+Status: Passed - Execution time: 4694
+Result: Press ENTER key/s.
+{&lt;}a href="https://www.google.com/search?source=hp&ei=JySCXeOZBIGkwQL4qLKACw&q=Testing&oq=Testing&gs_l=psy-ab.3..0l10.2806.2946..3892...0.0..1.215.673.0j3j1......0....1..gws-wiz.......0i131.GHfJJtlnV9U&ved=0ahUKEwijyZThsNrkAhUBUlAKHXiUDLAQ4dUDCAg&uact=5&safe=active&ssui=on"{&gt;}Page url{&lt;}/a{&gt;}
+Time: 18/09/2019 02:33:52.454 PM GMT+0200
+(02:33:53.061) - Info: Browser is open.
+4) SearchPage, SearchTitles , () , Assert Displayed , TRUE() , true , true
+Status: Passed - Execution time: 76
+Result: Assert Displayed = true
+{&lt;}a href="https://www.google.com/search?source=hp&ei=JySCXeOZBIGkwQL4qLKACw&q=Testing&oq=Testing&gs_l=psy-ab.3..0l10.2806.2946..3892...0.0..1.215.673.0j3j1......0....1..gws-wiz.......0i131.GHfJJtlnV9U&ved=0ahUKEwijyZThsNrkAhUBUlAKHXiUDLAQ4dUDCAg&uact=5&safe=active&ssui=on"{&gt;}Page url{&lt;}/a{&gt;}
+Time: 18/09/2019 02:33:53.139 PM GMT+0200
+
+
+Status: Passed
+Coverage: 100.0 %
+Execution Time: 22125 mSec
+
+******************** Test script execution end ********************
+(02:33:53.552) - Info: <a href="file:/C:/India/SKDF/GoogleProject/Results/TC001/TC001_18092019_023346.html" target="_blank">Link</a>
+(02:34:13.847) - Info: Testdata file C:/India/SKDF/GoogleProject/Testdata.xls loaded with 3 in 1 mSec
+(02:34:38.574) - Info: Testdata file C:/India/SKDF/GoogleProject/Testdata.xls loaded with 3 in 6 mSec
+(02:34:52.090) - Info: Edit step (1)
+(02:34:52.100) - Info: row added correctly
+(02:34:52.102) - Info: Edit row [=ROW()-5, Web, SearchPage, SearchPage_SearchFieldLocator, , Type, {#Data.URL}, Yes, Yes, Type in an editable webelement - Object required - Data required] in sheet (TC001)
+(02:35:07.657) - Info: Edit step (0)
+(02:35:07.683) - Info: row added correctly
+(02:35:07.684) - Info: Edit row [=ROW()-5, Web, , , , Open, {#Data.URL}, Yes, Yes, Open Url - No object - Data required] in sheet (TC001)
+(02:35:53.389) - Info: Edit step (1)
+(02:35:53.400) - Info: row added correctly
+(02:35:53.401) - Info: Edit row [=ROW()-5, Web, SearchPage, SearchPage_SearchFieldLocator, , Type, {#Data.SearchKeyWord}, Yes, Yes, Type in an editable webelement - Object required - Data required] in sheet (TC001)
+(02:35:55.257) - Info: Script file C:/India/SKDF/GoogleProject/Scripts/LoginSuite.xls saved
+(02:35:55.259) - Info: Testscript (TC001) loaded with 4 step
+(02:35:55.260) - Info: Testscript file (C:/India/SKDF/GoogleProject/Scripts/LoginSuite.xls) loaded with 1 script in 2 mSec
+(02:35:55.327) - Info: Testscript (TC001) loaded with 4 step
+(02:35:55.328) - Info: Testscript file (C:\India\SKDF\GoogleProject\Scripts\LoginSuite.xls) loaded with 1 script in 2 mSec
+(02:35:55.329) - Info: (LoginSuite) Loaded
+(02:35:55.335) - Info: Project C:/India/SKDF/GoogleProject/GoogleProject.prj updated.
+(02:35:55.361) - Info: Testscript (TC001) loaded with 4 step
+(02:35:55.361) - Info: Testscript file (C:/India/SKDF/GoogleProject/Scripts/LoginSuite.xls) loaded with 1 script in 2 mSec
+ - Script1 , TC001 , Test Name , true , 1 , []
+ - Script1 , TC001 , Test Name , true , 1 , []
+
+******************** Starting test script execution ********************
+Activity: Script1
+Test script Id: TC001
+Test script Name: Test Name
+Test script Description: Test Description
+Number of steps: 4
+(02:35:58.937) - Info: Browser is open.
+1) ,  , () , Open , {#Data.URL}() , true , true
+Status: Passed - Execution time: 1718
+Result: {&lt;}font color="blue"{&gt;}Open Url - No object - Data required{&lt;}/font{&gt;}
+Page (Google) loaded.
+{&lt;}a href="https://www.google.com/?safe=active&ssui=on"{&gt;}Page url{&lt;}/a{&gt;}
+Time: 18/09/2019 02:36:00.656 PM GMT+0200
+(02:36:01.266) - Info: Browser is open.
+2) SearchPage, SearchPage_SearchFieldLocator , () , Type , {#Data.SearchKeyWord}() , true , true
+Status: Passed - Execution time: 736
+Result: {&lt;}font color="blue"{&gt;}Type in an editable webelement - Object required - Data required{&lt;}/font{&gt;}
+Write (Testing) in Textbox (SearchPage_SearchFieldLocator).
+{&lt;}a href="https://www.google.com/?safe=active&ssui=on"{&gt;}Page url{&lt;}/a{&gt;}
+Time: 18/09/2019 02:36:02.005 PM GMT+0200
+(02:36:02.505) - Info: Browser is open.
+3) ,  , () , Key Press , ENTER() , true , true
+Status: Passed - Execution time: 1009
+Result: Press ENTER key/s.
+{&lt;}a href="https://www.google.com/search?source=hp&ei=rySCXcXIFs3DwQKuybngBw&q=Testing&oq=Testing&gs_l=psy-ab.3..0l10.1577.1705..2596...0.0..0.268.964.2-4......0....1..gws-wiz.......0i131.8N2Pk55067U&ved=0ahUKEwiF3JOisdrkAhXNYVAKHa5kDnwQ4dUDCAg&uact=5&safe=active&ssui=on"{&gt;}Page url{&lt;}/a{&gt;}
+Time: 18/09/2019 02:36:03.515 PM GMT+0200
+(02:36:04.032) - Info: Browser is open.
+4) SearchPage, SearchTitles , () , Assert Displayed , TRUE() , true , true
+Status: Passed - Execution time: 106
+Result: Assert Displayed = true
+{&lt;}a href="https://www.google.com/search?source=hp&ei=rySCXcXIFs3DwQKuybngBw&q=Testing&oq=Testing&gs_l=psy-ab.3..0l10.1577.1705..2596...0.0..0.268.964.2-4......0....1..gws-wiz.......0i131.8N2Pk55067U&ved=0ahUKEwiF3JOisdrkAhXNYVAKHa5kDnwQ4dUDCAg&uact=5&safe=active&ssui=on"{&gt;}Page url{&lt;}/a{&gt;}
+Time: 18/09/2019 02:36:04.139 PM GMT+0200
+
+
+Status: Passed
+Coverage: 100.0 %
+Execution Time: 5727 mSec
+
+******************** Test script execution end ********************
+(02:36:04.651) - Info: <a href="file:/C:/India/SKDF/GoogleProject/Results/TC001/TC001_18092019_023601.html" target="_blank">Link</a>

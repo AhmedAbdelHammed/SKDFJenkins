@@ -1,0 +1,37 @@
+(02:21:05.282) - Info: Project (C:/India/SKDF/GoogleProject/) loaded.
+(02:21:05.285) - Info: Target (Name:Desktop, Platform:Desktop, Type:Desktop, Hub IP:Local, Default:false) loaded.
+(02:21:05.286) - Info: Target (Name:Desktop, Platform:Desktop, Type:Desktop, Hub IP:Local, Default:false) added.
+(02:21:05.287) - Info: Target (Name:Web, Platform:Web, Type:Any, Hub IP:Local, Default:true) loaded.
+(02:21:05.287) - Info: Target (Name:Web, Platform:Web, Type:Chrome, Hub IP:Local, Default:true) added.
+(02:21:05.288) - Info: UIMap file C:/India/SKDF/GoogleProject/UIMap.xls loaded with 1 sheets in 1 mSec
+(02:21:05.302) - Info: Testdata file C:/India/SKDF/GoogleProject/Testdata.xls loaded with 3 in 1 mSec
+(02:21:05.304) - Info: Testscript (TC001) loaded with 0 step
+(02:21:05.305) - Info: Testscript file (C:\India\SKDF\GoogleProject\Scripts\Script1.xls) loaded with 1 script in 2 mSec
+(02:21:05.305) - Info: (Script1) Loaded
+(02:21:05.307) - Warning: Skipping error handling script execution, File name not exist
+(02:21:05.307) - Info: Testsuite C:/India/SKDF/GoogleProject/Testsuite.xlsloaded with 1 suites in 2 mSec
+(02:21:05.356) - Info: Project C:/India/SKDF/GoogleProject/GoogleProject.prj updated.
+(02:21:05.361) - Info: Testscript (TC001) loaded with 0 step
+(02:21:05.362) - Info: Testscript file (C:/India/SKDF/GoogleProject/Scripts/Script1.xls) loaded with 1 script in 1 mSec
+(02:21:05.378) - Info: UIMap file C:/India/SKDF/GoogleProject/UIMap.xls loaded with 1 sheets in 1 mSec
+(02:21:05.387) - Info: Default Target: Chrome
+	http.proxyHost=85.205.122.146
+	http.proxyPort=8080
+	https.proxyHost=85.205.122.146
+	https.proxyPort=8080
+(02:21:05.391) - Info: Proxy enabled.
+(02:21:32.119) - Info: Verify Authentication >> https://alm.vodafone.com/qcbin/rest/is-authenticated
+(02:21:32.885) - Info: Authenticated to user (eg_eelkafrawy)
+(02:21:32.885) - Info: Verify access >> https://alm.vodafone.com/qcbin/api/domains/TSS_COE/projects, user (eg_eelkafrawy)
+(02:21:33.293) - Info: Already Authenticated
+(02:21:33.295) - Info: ALM connected: true
+(02:21:33.462) - Info: Local version=v2.2.0, Server version=v2.3.3
+(02:22:50.358) - Info: input data 
+(02:22:58.879) - Info: input data 
+(02:23:37.148) - Info: Reloading
+
+(02:23:37.173) - Info: Project (C:/India/SKDF/GoogleProject/) loaded.
+(02:23:37.177) - Info: Target (Name:Desktop, Platform:Desktop, Type:Desktop, Hub IP:Local, Default:false) loaded.
+(02:23:37.178) - Info: Target (Name:Desktop, Platform:Desktop, Type:Desktop, Hub IP:Local, Default:false) added.
+(02:23:37.178) - Info: Target (Name:Web, Platform:Web, Type:Any, Hub IP:Local, Default:true) loaded.
+(02:23:37.179) - Info: Target (Name:Web, Platform:Web, Type:Chrome, Hub IP:Local, Default:true) added.

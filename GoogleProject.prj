@@ -1,0 +1,21 @@
+#Wed Sep 18 14:35:55 EET 2019
+timeout_ajax=20000
+timeout_find=2000
+Testdata=Testdata.xls
+Results=Results
+closeTargetOnFailure=false
+Testscript=LoginSuite.xls
+timeout_script=5000
+Testsuite=Testsuite.xls
+Targets=Targets
+UIMap=UIMap.xls
+captureScreenShot=true
+executionDelay=0
+Testscripts=Scripts
+Test_Tag=AutoTest01
+Testdata_Id=Dev
+timeout_page=120000
+targetType=Chrome
+Testsuite_Id=TS001
+autocloseTarget=true
+hubServerIP=Local
