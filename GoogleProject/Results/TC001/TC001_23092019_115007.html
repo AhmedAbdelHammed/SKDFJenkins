@@ -1,0 +1,184 @@
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <script type="text/javascript" src="jquery-1.js"></script>
+  <style type="text/css">
+  
+    body { 
+    background-repeat:no-repeat;
+    background-position:center top 10px; 
+    background-image:url('data:image/png;base64,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')
+    }
+	
+	p1    {color:blue}
+	
+	p2    {color:red}
+	
+	table.table1{ border-collapse: collapse;
+	width: 100%; border: 1px solid black; word-wrap:break-word;
+	margin-bottom: 2px;
+	} 
+	
+	table.table1 td,tr{
+	border: 1px solid black; word-wrap:break-word;
+	}
+	
+	table.table2 {
+	table-layout:fixed; width: 100%; border: 1px solid black; word-wrap:break-word;
+	} 
+	
+	td,tr,th{
+	border: 1px solid black; word-wrap:break-word;
+	}
+	
+	td{
+	padding: 2px;
+	}
+	
+	table.table2 tr:hover{
+	background-color: #F8F8F8 
+	}
+	  
+	div.scrol{
+	max-height: 10em; overflow: auto;  font-family: "Arial"; font-size: 14px;
+	}
+	
+	div{
+	font-family: "Times New Roman"; font-size: 14px;
+	}
+	
+	tr.header{
+	cursor:pointer;
+	}
+	
+	.header .sign:after{
+	content:"+";
+	display:inline-block;      
+	}
+	
+	.header.expand .sign:after{
+	content:"-";
+	}
+	
+	select {
+	  font:inherit;
+	}
+	
+	.text-input-wrapper {
+	  border:1px solid;
+	  padding:1px 6px 1px 1px;
+	  display:inline-block;
+	}
+	.text-input-wrapper input {
+	  width:500;
+	  border:none;
+	  background:none;
+	  outline:none;
+	  padding:0 0;
+	  margin:0 0;
+	  font:inherit;
+	}
+	.text-input-wrapper span {
+	  cursor:pointer;
+	  color:blue;
+	  font-weight:normal;
+	  visibility:hidden;
+	}
+	
+	.text-input-wrapper span:hover {
+	  cursor:pointer;
+	  color:red;
+	  font-weight:bold;
+	  visibility:hidden;
+	}
+  </style>
+<script type="text/javascript">//<![CDATA[ 
+$(function(){
+$('.header').click(function(){
+     $(this).toggleClass('expand').nextUntil('tr.header').slideToggle(100);
+});
+$('.header').toggleClass('expand').nextUntil('tr.header').slideToggle(0);
+
+$("#toggleButtonId").click( function(){
+if(this.textContent == "+")
+{
+this.textContent = "-"
+$('.header').addClass('expand').nextUntil('tr.header').slideToggle(0);
+}
+else
+{
+this.textContent = "+"
+$('.header').removeClass('expand').nextUntil('tr.header').slideToggle(0);
+}
+});
+});//]]>  
+</script>
+<script>
+	function myFunctionFilter(param) {
+		var clearBtn = document.getElementById('clearBtn');
+		clearBtn.style.visibility = (param.length) ? "visible" : "hidden";
+		
+		var filter, table, tr, td, i, col;
+		filter = param.toUpperCase();
+		table = document.getElementById("tableResults");
+		tr = table.getElementsByTagName("tr");
+		col = document.getElementById("myInputType").selectedIndex;
+		for (i = 0; i < tr.length; i++) {
+		td = tr[i].getElementsByTagName("td")[col];
+		if (td) {
+		  if (td.innerText.toUpperCase().match(filter)) {
+			tr[i].style.display = "";
+		  } else {
+			tr[i].style.display = "none";
+		  }
+		}       
+	  }
+	}
+	</script>
+	<script>
+	function myFunctionClear(param) {
+		var textInput = document.getElementById('textInput');
+	//	param.style.visibility = "hidden";
+		textInput.value = "";
+		myFunctionFilter("");
+	}
+	</script>
+	<script>
+	function myFunctionHide(param) {
+    var spanInput = document.getElementById('spanInput');
+	var textInput = document.getElementById('textInput');
+	textInput.value = "";
+	myFunctionFilter(".*");
+	}
+	</script>
+	<script>
+		function myFunctionSetFilter(param) {
+		var myInputType =  document.getElementById('myInputType')
+		myInputType.selectedIndex = 7;
+		myFunctionHide(myInputType.selectedIndex);
+		var textInput =  document.getElementById('textInput');
+		textInput.value = param;
+		myFunctionFilter(textInput.value)
+	}
+	</script>
+</head>
+<body><html><head><title>TC001</title></head></html><TR><th align=left BGCOLOR=white WIDTH=70%><div><font size="4"><h1>TC001</h1></font></div></th><th align=right BGCOLOR=white WIDTH=30%><div><font color="blue"><div style="position: absolute; top: 20; right: 20; width: 300px; text-align:right;">Created by SKDF&#0153; v2.2.0</div></font></div></th></TR><TABLE class='table1'><TR><th align=left WIDTH=20%><div>Test Suite Id: Script TC001</div></th><th align=left WIDTH=20%><div>Test Data Id: Dev</div></th><th align=left WIDTH=60%><div>Test Suite Name: Script TC001</div></th></TR></TABLE'><TABLE class='table1'><TR><th align=left WIDTH=20%><div>Test Script Id: TC001</div></th><th align=left WIDTH=20%><div>Activity: LoginSuite</div></th><th align=left WIDTH=60%><div>Test Script Name: TC001</div></th></TR></TABLE'><TABLE class='table1'><TR><th align=left WIDTH=100%><div>Test Script Description: Test Description</div></th></TR></TABLE'><TABLE class='table1'><TR><th align=left WIDTH=40%><div>Platform: Desktop() Web(XP) </div></th><th align=left WIDTH=40%><div>Target: Desktop() Web(chrome 77.0.3865.90) </div></th><th align=left WIDTH=20%><div>Run On: Local</div></th></TR></TABLE'><TABLE class='table1'><TR><th align=left WIDTH=13%><div>Number of Steps: 4</div></th><th align=left WIDTH=13%><div>Number of Failed Steps: 0</div></th><th align=left WIDTH=14%><div>Covarage: 100.0 %</div></th><th align=left WIDTH=20%><div>Execution Date: 23/09/19 11:49:55</div></th><th align=left WIDTH=20%><div>Execution Time: 14.42 sec</div></th><th align=left BGCOLOR=#00FF00 WIDTH=20%><div>Status: Passed</div></th></TR></TABLE'><TABLE class='table1'><p> </p><TR><th align=center WIDTH=100%><div>Test Script Results</div></th></TR></TABLE><TABLE class='table1'><TR><th align=center BGCOLOR=white WIDTH=12.5%><div><a href ='#' onClick='myFunctionSetFilter("")'>Total: 4</a></div></th><th align=center BGCOLOR=#00FF00 WIDTH=12.5%><div><a href ='#' onClick='myFunctionSetFilter("^Passed$")'>Passed: 4</a></div></th><th align=center BGCOLOR=#FFCC00 WIDTH=12.5%><div><a href ='#' onClick='myFunctionSetFilter("^Warning$")'>Warning: 0</a></div></th><th align=center BGCOLOR=#FF7070 WIDTH=12.5%><div><a href ='#' onClick='myFunctionSetFilter("^Failed Validation$")'>Failed Validation: 0</a></div></th><th align=center BGCOLOR=red WIDTH=12.5%><div><a href ='#' onClick='myFunctionSetFilter("^Failed$")'>Failed: 0</a></div></th><th align=center BGCOLOR=yellow WIDTH=12.5%><div><a href ='#' onClick='myFunctionSetFilter("^Error$")'>Error: 0</a></div></th><th align=center BGCOLOR=#F8F8F8 WIDTH=12.5%><div><a href ='#' onClick='myFunctionSetFilter("^Skipped$")'>Skipped: 0</a></div></th><th align=center BGCOLOR=white WIDTH=12.5%><div><a href ='#' onClick='myFunctionSetFilter("^Not Executed$")'>Not Executed: 0</a></div></th></TR></TABLE><p> </p><form autocomplete='off'>
+	<label for='myInput'>Filter</label>
+	<select id='myInputType'  onchange='myFunctionHide(this.selectedIndex)'>
+	  <option value='Step'>Step</option>
+	  <option value='Target'>Target</option>
+	  <option value='Page'>Page</option>
+	  <option value='Object'>Object</option>
+	  <option value='Action'>Action</option>
+	  <option value='Data'>Data</option>
+	  <option value='Time'>Time</option>
+	  <option value='Status' selected='selected'>Status</option>
+	  <option value='Results'>Results</option>
+	</select> 
+    	<span id='spanInput' class='text-input-wrapper'>
+	<input type='text' id='textInput' autocomplete='on' onkeyup='myFunctionFilter(this.value)' placeholder='Filter' title='Type in a filter text or regex' />
+	<span id='clearBtn' title='Clear' onclick='myFunctionClear(this)' >&times;</span>
+	</span>
+</form>
+<TABLE id='tableResults' class='table2'><TR><th align=center BGCOLOR=LIGHTGRAY WIDTH=2%><div><button id="toggleButtonId">+</button></div></th><th align=center BGCOLOR=LIGHTGRAY WIDTH=5%><div>Target</div></th><th align=center BGCOLOR=LIGHTGRAY WIDTH=10%><div>Page</div></th><th align=center BGCOLOR=LIGHTGRAY WIDTH=15%><div>Object</div></th><th align=center BGCOLOR=LIGHTGRAY WIDTH=8%><div>Action</div></th><th align=center BGCOLOR=LIGHTGRAY WIDTH=20%><div>Data</div></th><th align=center BGCOLOR=LIGHTGRAY WIDTH=5%><div>Ex. Time</div></th><th align=center BGCOLOR=LIGHTGRAY WIDTH=5%><div>Status</div></th><th align=center BGCOLOR=LIGHTGRAY WIDTH=30%><div>Result</div></th></TR><TR class="header expand" ><TD align=center><div>1</div></TD><TD align=left><div>Web</div></TD><TD align=left><div></div></TD><TD align=left><div> </div></TD><TD align=center><div>Open</div></TD><TD align=left><div>{#Data.URL}<p1> http://localhost:3000/</p1></div></TD><TD align=center><div>1.34 sec</div></TD><TD align=center BGCOLOR=#00FF00><div><a href="../TC001/TC001_23092019_115007/Step_1_Passed.png" target="_blank">Passed</a></div></TD><TD align=left><div><font color="blue">Open Url - No object - Data required</font><br />Page (Pokedex) loaded.<br /><a href="http://localhost:3000/">Page url</a><br />Time: 23/09/2019 11:50:07.516 PM GMT+0530</div></TD></TR><TR class="header expand" ><TD align=center><div>2</div></TD><TD align=left><div>Web</div></TD><TD align=left><div>SearchPage</div></TD><TD align=left><div>SearchPage_SearchFieldLocator </div></TD><TD align=center><div>Type</div></TD><TD align=left><div>{#Data.SearchKeyWord}<p1> squirtle</p1></div></TD><TD align=center><div>0.49 sec</div></TD><TD align=center BGCOLOR=#00FF00><div><a href="../TC001/TC001_23092019_115007/Step_2_Passed.png" target="_blank">Passed</a></div></TD><TD align=left><div><font color="blue">Type in an editable webelement - Object required - Data required</font><br />Write (squirtle) in Textbox (SearchPage_SearchFieldLocator).<br /><a href="http://localhost:3000/">Page url</a><br />Time: 23/09/2019 11:50:08.428 PM GMT+0530</div></TD></TR><TR class="header expand" ><TD align=center><div>3</div></TD><TD align=left><div>Web</div></TD><TD align=left><div></div></TD><TD align=left><div> </div></TD><TD align=center><div>Key Press</div></TD><TD align=left><div>ENTER</div></TD><TD align=center><div>0.07 sec</div></TD><TD align=center BGCOLOR=#00FF00><div><a href="../TC001/TC001_23092019_115007/Step_3_Passed.png" target="_blank">Passed</a></div></TD><TD align=left><div>Press ENTER key/s.<br /><a href="http://localhost:3000/">Page url</a><br />Time: 23/09/2019 11:50:08.931 PM GMT+0530</div></TD></TR><TR class="header expand" ><TD align=center><div>=ROW()-5</div></TD><TD align=left><div>Web</div></TD><TD align=left><div>SearchPage</div></TD><TD align=left><div>SearchTitles </div></TD><TD align=center><div>Assert Text</div></TD><TD align=left><div>{#Data.SearchKeyWord}<p1> squirtle</p1></div></TD><TD align=center><div>0.07 sec</div></TD><TD align=center BGCOLOR=#00FF00><div><a href="../TC001/TC001_23092019_115007/Step_%3DROW%28%29-5_Passed.png" target="_blank">Passed</a></div></TD><TD align=left><div>Assert Text (Equal) passed.<br />Input Data = squirtle<br />Target value = squirtle<br /><a href="http://localhost:3000/">Page url</a><br />Time: 23/09/2019 11:50:09.374 PM GMT+0530</div></TD></TR></TABLE></br></br><TR><th align=center BGCOLOR=white WIDTH=10%><div><b>Framework Logs</b></div></th></TR><ul><li><TR><th align=center BGCOLOR=white WIDTH=30%><div><a href="../Log IDE 23-09-2019 23-44-06.txt" target="_blank">Log IDE 23-09-2019 23-44-06.txt</a></div></th></TR></li></ul></body></html>

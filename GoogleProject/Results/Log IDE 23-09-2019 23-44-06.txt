@@ -1,0 +1,233 @@
+(11:44:06.206) - Info: Project (C:/India/SKDF/GoogleProject/) loaded.
+(11:44:06.210) - Info: Target (Name:Desktop, Platform:Desktop, Type:Desktop, Hub IP:Local, Default:false) loaded.
+(11:44:06.212) - Info: Target (Name:Desktop, Platform:Desktop, Type:Desktop, Hub IP:Local, Default:false) added.
+(11:44:06.221) - Info: Target (Name:Web, Platform:Web, Type:Any, Hub IP:Local, Default:true) loaded.
+(11:44:06.224) - Info: Target (Name:Web, Platform:Web, Type:Chrome, Hub IP:Local, Default:true) added.
+(11:44:06.244) - Info: Varibales file C:/India/SKDF/GoogleProject//Var_AutoTest01.dat loaded in 15 mSec
+(11:44:06.248) - Info: UIMap file C:/India/SKDF/GoogleProject/UIMap.xls loaded with 1 sheets in 2 mSec
+(11:44:06.258) - Info: Testdata file C:/India/SKDF/GoogleProject/Testdata.xls loaded with 3 in 4 mSec
+(11:44:06.273) - Info: Testscript (TC001) loaded with 4 step
+(11:44:06.274) - Info: Testscript file (C:\India\SKDF\GoogleProject\Scripts\LoginSuite.xls) loaded with 1 script in 12 mSec
+(11:44:06.284) - Info: (LoginSuite) Loaded
+(11:44:06.300) - Warning: Skipping error handling script execution, File name not exist
+(11:44:06.302) - Error: For input string: ""
+java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:592)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at com.vodafone.skdf.common.CommonMethods.getInteger(Unknown Source)
+	at com.vodafone.skdf.test_items.TestsuiteFile.getSuite(Unknown Source)
+	at com.vodafone.skdf.test_items.TestsuiteFile.loadSuite(Unknown Source)
+	at com.vodafone.skdf.test_items.TestsuiteFile.<init>(Unknown Source)
+	at com.vodafone.skdf.test_items.Project.setTestSuiteFile(Unknown Source)
+	at com.vodafone.skdf.test_items.Project.loadProject(Unknown Source)
+	at com.vodafone.skdf.ide.Actions.initializeAll(Unknown Source)
+	at com.vodafone.skdf.ide.Actions.access$100(Unknown Source)
+	at com.vodafone.skdf.ide.Actions$5.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:748)
+(11:44:06.370) - Info: Testscript (C:\India\SKDF\GoogleProject\Scripts\LoginSuite.xls) sheet (TC001) loaded with 4 step in 3 mSec
+(11:44:06.372) - Info: Testsuite C:/India/SKDF/GoogleProject/Testsuite.xlsloaded with 1 suites in 81 mSec
+(11:44:06.428) - Info: Project C:/India/SKDF/GoogleProject/GoogleProject.prj updated.
+(11:44:06.441) - Info: Testscript (TC001) loaded with 4 step
+(11:44:06.443) - Info: Testscript file (C:/India/SKDF/GoogleProject/Scripts/LoginSuite.xls) loaded with 1 script in 7 mSec
+(11:44:06.478) - Info: UIMap file C:/India/SKDF/GoogleProject/UIMap.xls loaded with 1 sheets in 1 mSec
+(11:44:06.500) - Info: Default Target: Chrome
+	http.proxyHost=85.205.122.146
+	http.proxyPort=8080
+	https.proxyHost=85.205.122.146
+	https.proxyPort=8080
+(11:44:06.521) - Info: Proxy enabled.
+(11:44:18.535) - Info: Verify Authentication >> https://alm.vodafone.com/qcbin/rest/is-authenticated
+(11:44:19.255) - Info: Authenticated to user (eg_eelkafrawy)
+(11:44:19.256) - Info: Verify access >> https://alm.vodafone.com/qcbin/api/domains/TSS_COE/projects, user (eg_eelkafrawy)
+(11:44:19.996) - Info: Already Authenticated
+(11:44:19.998) - Info: ALM connected: true
+(11:44:20.172) - Info: Local version=v2.2.0, Server version=v2.3.3
+(11:45:17.629) - Info: input data 
+(11:46:05.059) - Info: Object (SearchPage_SearchFieldLocator) updated (SearchPage_SearchFieldLocator,Xpath,//[@placeholder="Enter pokemon name..."],Textbox,) in (SearchPage)
+(11:46:05.265) - Info: row added correctly
+(11:46:05.267) - Info: Edit row [SearchPage_SearchFieldLocator, Xpath, //[@placeholder="Enter pokemon name..."], Textbox, ] in sheet (SearchPage)
+(11:46:06.770) - Info: input data 
+(11:46:10.279) - Info: input data 
+(11:46:22.605) - Info: Object (SearchPage_SearchFieldLocator) updated (SearchPage_SearchFieldLocator,Xpath,//*[@placeholder='Enter pokemon name...'],Textbox,) in (SearchPage)
+(11:46:22.620) - Info: row added correctly
+(11:46:22.623) - Info: Edit row [SearchPage_SearchFieldLocator, Xpath, //*[@placeholder='Enter pokemon name...'], Textbox, ] in sheet (SearchPage)
+(11:46:58.998) - Info: input data 
+(11:47:28.544) - Info: Object (SearchTitles) updated (SearchTitles,Xpath,//*[@class='pokemon__name'],Textbox,) in (SearchPage)
+(11:47:28.550) - Info: row added correctly
+(11:47:28.553) - Info: Edit row [SearchTitles, Xpath, //*[@class='pokemon__name'], Textbox, ] in sheet (SearchPage)
+(11:47:30.348) - Info: input data 
+(11:47:34.131) - Info: input data 
+(11:47:35.360) - Info: input data 
+(11:47:36.425) - Info: input data 
+(11:47:39.867) - Info: Object (SearchTitles) updated (SearchTitles,Xpath,//*[@class='pokemon__name'],Textbox,) in (SearchPage)
+(11:47:39.871) - Info: row added correctly
+(11:47:39.873) - Info: Edit row [SearchTitles, Xpath, //*[@class='pokemon__name'], Textbox, ] in sheet (SearchPage)
+(11:47:52.182) - Info: Testdata file C:/India/SKDF/GoogleProject/Testdata.xls loaded with 3 in 2 mSec
+(11:48:04.697) - Info: Testdata file C:/India/SKDF/GoogleProject/Testdata.xls loaded with 3 in 3 mSec
+(11:48:25.629) - Info: Testdata file C:/India/SKDF/GoogleProject/Testdata.xls loaded with 3 in 2 mSec
+(11:48:40.008) - Info: input data 
+(11:49:04.044) - Info: input data 
+(11:49:36.188) - Info: Edit step (3)
+(11:49:36.212) - Info: row added correctly
+(11:49:36.213) - Info: Edit row [=ROW()-5, Web, SearchPage, SearchTitles, , Assert Text, {#Data.SearchKeyWord}, Yes, Yes, ] in sheet (TC001)
+ - LoginSuite , TC001 , TC001 , true , 1 , []
+ - LoginSuite , TC001 , TC001 , true , 1 , []
+
+******************** Starting test script execution ********************
+Activity: LoginSuite
+Test script Id: TC001
+Test script Name: TC001
+Test script Description: Test Description
+Number of steps: 1
+Sep 23, 2019 11:49:42 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+(11:49:42.248) - Info: Chrome config loaded.
+(11:49:42.249) - Info: Target Type: Chrome
+(11:49:42.257) - Info: Capabilities:
+(11:49:42.262) - Info: Capability: acceptSslCerts=true
+(11:49:42.267) - Info: Capability: applicationCacheEnabled=true
+(11:49:42.272) - Info: Capability: browserConnectionEnabled=true
+(11:49:42.275) - Info: Capability: browserName=chrome
+(11:49:42.279) - Info: Capability: databaseEnabled=true
+(11:49:42.283) - Info: Capability: elementScrollBehavior=1
+(11:49:42.287) - Info: Capability: javascriptEnabled=true
+(11:49:42.291) - Info: Capability: locationContextEnabled=true
+(11:49:42.295) - Info: Capability: nativeEvents=true
+(11:49:42.298) - Info: Capability: platform=ANY
+(11:49:42.303) - Info: Capability: proxy={proxyType=SYSTEM, autodetect=false, ftpProxy=null, httpProxy=null, noProxy=null, sslProxy=null, socksProxy=null, socksVersion=null, socksUsername=null, socksPassword=null, proxyAutoconfigUrl=null}
+(11:49:42.310) - Info: Capability: rotatable=false
+(11:49:42.314) - Info: Capability: unexpectedAlertBehaviour=ignore
+(11:49:42.318) - Info: Capability: unhandledPromptBehavior=ignore
+(11:49:42.322) - Info: Capability: version=
+(11:49:42.327) - Info: Capability: webStorageEnabled=true
+(11:49:42.330) - Info: Capability: webdriver.remote.quietExceptions=false
+(11:49:42.334) - Info: Configurations:
+(11:49:42.339) - Info: Config: targetPath=
+(11:49:42.342) - Info: Config: timeoutPage=120000
+(11:49:42.346) - Info: Config: timeoutFind=2000
+(11:49:42.350) - Info: Config: timeoutJScript=5000
+(11:49:42.355) - Info: Config: timeoutAjax=20000
+(11:49:42.358) - Info: Config: serverAddress=Local
+(11:49:42.362) - Info: Config: autoSelectWindow=false
+(11:49:42.366) - Info: Config: autoMaximize=false
+(11:49:42.371) - Info: Config: mobileEmulation=false
+Starting ChromeDriver 2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5) on port 10852
+Only local connections are allowed.
+Sep 23, 2019 11:49:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+(11:49:51.882) - Info: Browser opened.
+=ROW()-5) SearchPage, SearchTitles , () , Assert Text , {#Data.SearchKeyWord}() , true , true
+Status: Error - Execution time: 249
+Result: Failed to Assert Text for object (SearchTitles).
+Time: 23/09/2019 11:49:52.154 PM GMT+0530
+(11:49:54.127) - Info: Execution Stopped
+
+
+Status: Error
+Coverage: 100.0 %
+Execution Time: 11977 mSec
+
+******************** Test script execution end ********************
+(11:49:54.228) - Info: <a href="file:/C:/India/SKDF/GoogleProject/Results/TC001/TC001_23092019_114954.html" target="_blank">Link</a>
+ - LoginSuite , TC001 , TC001 , true , 1 , []
+ - LoginSuite , TC001 , TC001 , true , 1 , []
+
+******************** Starting test script execution ********************
+Activity: LoginSuite
+Test script Id: TC001
+Test script Name: TC001
+Test script Description: Test Description
+Number of steps: 4
+(11:49:57.346) - Warning: Failed to get window state.
+Sep 23, 2019 11:49:57 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+(11:49:57.364) - Info: Chrome config loaded.
+(11:49:57.365) - Info: Target Type: Chrome
+(11:49:57.378) - Info: Capabilities:
+(11:49:57.390) - Info: Capability: acceptSslCerts=true
+(11:49:57.404) - Info: Capability: applicationCacheEnabled=true
+(11:49:57.410) - Info: Capability: browserConnectionEnabled=true
+(11:49:57.416) - Info: Capability: browserName=chrome
+(11:49:57.422) - Info: Capability: databaseEnabled=true
+(11:49:57.428) - Info: Capability: elementScrollBehavior=1
+(11:49:57.437) - Info: Capability: javascriptEnabled=true
+(11:49:57.447) - Info: Capability: locationContextEnabled=true
+(11:49:57.459) - Info: Capability: nativeEvents=true
+(11:49:57.463) - Info: Capability: platform=ANY
+(11:49:57.470) - Info: Capability: proxy={proxyType=SYSTEM, autodetect=false, ftpProxy=null, httpProxy=null, noProxy=null, sslProxy=null, socksProxy=null, socksVersion=null, socksUsername=null, socksPassword=null, proxyAutoconfigUrl=null}
+(11:49:57.496) - Info: Capability: rotatable=false
+(11:49:57.507) - Info: Capability: unexpectedAlertBehaviour=ignore
+(11:49:57.512) - Info: Capability: unhandledPromptBehavior=ignore
+(11:49:57.520) - Info: Capability: version=
+(11:49:57.524) - Info: Capability: webStorageEnabled=true
+(11:49:57.537) - Info: Capability: webdriver.remote.quietExceptions=false
+(11:49:57.550) - Info: Configurations:
+(11:49:57.554) - Info: Config: targetPath=
+(11:49:57.566) - Info: Config: timeoutPage=120000
+(11:49:57.571) - Info: Config: timeoutFind=2000
+(11:49:57.579) - Info: Config: timeoutJScript=5000
+(11:49:57.586) - Info: Config: timeoutAjax=20000
+(11:49:57.592) - Info: Config: serverAddress=Local
+(11:49:57.595) - Info: Config: autoSelectWindow=false
+(11:49:57.600) - Info: Config: autoMaximize=false
+(11:49:57.606) - Info: Config: mobileEmulation=false
+Starting ChromeDriver 2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5) on port 36367
+Only local connections are allowed.
+Sep 23, 2019 11:50:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+(11:50:06.176) - Info: Browser opened.
+1) ,  , () , Open , {#Data.URL}() , true , true
+Status: Passed - Execution time: 1336
+Result: {&lt;}font color="blue"{&gt;}Open Url - No object - Data required{&lt;}/font{&gt;}
+Page (Pokedex) loaded.
+{&lt;}a href="http://localhost:3000/"{&gt;}Page url{&lt;}/a{&gt;}
+Time: 23/09/2019 11:50:07.516 PM GMT+0530
+(11:50:07.932) - Info: Browser is open.
+2) SearchPage, SearchPage_SearchFieldLocator , () , Type , {#Data.SearchKeyWord}() , true , true
+Status: Passed - Execution time: 493
+Result: {&lt;}font color="blue"{&gt;}Type in an editable webelement - Object required - Data required{&lt;}/font{&gt;}
+Write (squirtle) in Textbox (SearchPage_SearchFieldLocator).
+{&lt;}a href="http://localhost:3000/"{&gt;}Page url{&lt;}/a{&gt;}
+Time: 23/09/2019 11:50:08.428 PM GMT+0530
+(11:50:08.859) - Info: Browser is open.
+3) ,  , () , Key Press , ENTER() , true , true
+Status: Passed - Execution time: 67
+Result: Press ENTER key/s.
+{&lt;}a href="http://localhost:3000/"{&gt;}Page url{&lt;}/a{&gt;}
+Time: 23/09/2019 11:50:08.931 PM GMT+0530
+(11:50:09.303) - Info: Browser is open.
+=ROW()-5) SearchPage, SearchTitles , () , Assert Text , {#Data.SearchKeyWord}() , true , true
+Status: Passed - Execution time: 65
+Result: Assert Text (Equal) passed.
+Input Data = squirtle
+Target value = squirtle
+{&lt;}a href="http://localhost:3000/"{&gt;}Page url{&lt;}/a{&gt;}
+Time: 23/09/2019 11:50:09.374 PM GMT+0530
+
+
+Status: Passed
+Coverage: 100.0 %
+Execution Time: 14422 mSec
+
+******************** Test script execution end ********************
+(11:50:09.765) - Info: <a href="file:/C:/India/SKDF/GoogleProject/Results/TC001/TC001_23092019_115007.html" target="_blank">Link</a>
+(11:51:02.382) - Info: Map file C:/India/SKDF/GoogleProject/UIMap.xls saved
+(11:51:02.385) - Info: UIMap file C:/India/SKDF/GoogleProject/UIMap.xls loaded with 1 sheets in 2 mSec
+(11:51:04.119) - Info: Script file C:/India/SKDF/GoogleProject/Scripts/LoginSuite.xls saved
+(11:51:04.123) - Info: Testscript (TC001) loaded with 4 step
+(11:51:04.127) - Info: Testscript file (C:/India/SKDF/GoogleProject/Scripts/LoginSuite.xls) loaded with 1 script in 5 mSec
+(11:51:04.211) - Info: Testscript (TC001) loaded with 4 step
+(11:51:04.212) - Info: Testscript file (C:\India\SKDF\GoogleProject\Scripts\LoginSuite.xls) loaded with 1 script in 2 mSec
+(11:51:04.216) - Info: (LoginSuite) Loaded
+(11:51:04.224) - Info: Project C:/India/SKDF/GoogleProject/GoogleProject.prj updated.
+(11:51:04.250) - Info: Testscript (TC001) loaded with 4 step
+(11:51:04.251) - Info: Testscript file (C:/India/SKDF/GoogleProject/Scripts/LoginSuite.xls) loaded with 1 script in 3 mSec
+	http.proxyHost=85.205.122.146
+	http.proxyPort=8080
+	https.proxyHost=85.205.122.146
+	https.proxyPort=8080
+(11:51:04.345) - Info: Proxy enabled.
+(11:51:04.355) - Info: Config updated.
+(11:51:05.204) - Info: Quit webdriver
+(11:51:05.205) - Info: Application Closed

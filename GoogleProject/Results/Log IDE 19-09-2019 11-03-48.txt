@@ -1,0 +1,97 @@
+(11:03:48.648) - Info: Project (C:/India/SKDF/GoogleProject/) loaded.
+(11:03:48.680) - Info: Target (Name:Desktop, Platform:Desktop, Type:Desktop, Hub IP:Local, Default:false) loaded.
+(11:03:48.688) - Info: Target (Name:Desktop, Platform:Desktop, Type:Desktop, Hub IP:Local, Default:false) added.
+(11:03:48.701) - Info: Target (Name:Web, Platform:Web, Type:Any, Hub IP:Local, Default:true) loaded.
+(11:03:48.721) - Info: Target (Name:Web, Platform:Web, Type:Chrome, Hub IP:Local, Default:true) added.
+(11:03:48.812) - Info: Varibales file C:/India/SKDF/GoogleProject//Var_AutoTest01.dat loaded in 85 mSec
+(11:03:49.170) - Info: UIMap file C:/India/SKDF/GoogleProject/UIMap.xls loaded with 1 sheets in 349 mSec
+(11:03:49.192) - Info: Testdata file C:/India/SKDF/GoogleProject/Testdata.xls loaded with 3 in 20 mSec
+(11:03:49.227) - Info: Testscript (TC001) loaded with 4 step
+(11:03:49.229) - Info: Testscript file (C:\India\SKDF\GoogleProject\Scripts\LoginSuite.xls) loaded with 1 script in 25 mSec
+(11:03:49.234) - Info: (LoginSuite) Loaded
+(11:03:49.263) - Warning: Skipping error handling script execution, File name not exist
+(11:03:49.265) - Error: For input string: ""
+java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:592)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at com.vodafone.skdf.common.CommonMethods.getInteger(Unknown Source)
+	at com.vodafone.skdf.test_items.TestsuiteFile.getSuite(Unknown Source)
+	at com.vodafone.skdf.test_items.TestsuiteFile.loadSuite(Unknown Source)
+	at com.vodafone.skdf.test_items.TestsuiteFile.<init>(Unknown Source)
+	at com.vodafone.skdf.test_items.Project.setTestSuiteFile(Unknown Source)
+	at com.vodafone.skdf.test_items.Project.loadProject(Unknown Source)
+	at com.vodafone.skdf.ide.Actions.initializeAll(Unknown Source)
+	at com.vodafone.skdf.ide.Actions.access$100(Unknown Source)
+	at com.vodafone.skdf.ide.Actions$5.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:748)
+(11:03:49.323) - Info: Testscript (C:\India\SKDF\GoogleProject\Scripts\LoginSuite.xls) sheet (TC001) loaded with 4 step in 7 mSec
+(11:03:49.328) - Info: Testsuite C:/India/SKDF/GoogleProject/Testsuite.xlsloaded with 1 suites in 89 mSec
+(11:03:49.448) - Info: Project C:/India/SKDF/GoogleProject/GoogleProject.prj updated.
+(11:03:49.460) - Info: Testscript (TC001) loaded with 4 step
+(11:03:49.462) - Info: Testscript file (C:/India/SKDF/GoogleProject/Scripts/LoginSuite.xls) loaded with 1 script in 9 mSec
+(11:03:49.490) - Info: Project C:/India/SKDF/GoogleProject/GoogleProject.prj updated.
+(11:03:49.496) - Info: Testscript (TC001) loaded with 4 step
+(11:03:49.497) - Info: Testscript file (C:/India/SKDF/GoogleProject/Scripts/LoginSuite.xls) loaded with 1 script in 4 mSec
+(11:03:49.510) - Info: UIMap file C:/India/SKDF/GoogleProject/UIMap.xls loaded with 1 sheets in 3 mSec
+(11:03:49.527) - Info: Default Target: Chrome
+	http.proxyHost=85.205.122.146
+	http.proxyPort=8080
+	https.proxyHost=85.205.122.146
+	https.proxyPort=8080
+(11:03:49.534) - Info: Proxy enabled.
+(11:04:22.987) - Info: Verify Authentication >> https://alm.vodafone.com/qcbin/rest/is-authenticated
+(11:04:23.688) - Info: Not Authenticated
+(11:04:23.688) - Info: Login >> https://alm.vodafone.com/qcbin/api/authentication/sign-in, user (eg_eelkafrawy)
+(11:04:24.416) - Info: Verify Authentication >> https://alm.vodafone.com/qcbin/rest/is-authenticated
+(11:04:24.551) - Info: Authenticated to user (eg_eelkafrawy)
+(11:04:24.551) - Info: Verify access >> https://alm.vodafone.com/qcbin/api/domains/TSS_COE/projects, user (eg_eelkafrawy)
+(11:04:25.015) - Info: ALM connected: true
+(11:04:25.235) - Info: Local version=v2.2.0, Server version=v2.3.3
+(11:09:28.428) - Info: Project C:/India/SKDF/DropBoxWeb/DropBoxWeb.prj updated.
+	http.proxyHost=85.205.122.146
+	http.proxyPort=8080
+	https.proxyHost=85.205.122.146
+	https.proxyPort=8080
+(11:09:28.428) - Info: Proxy enabled.
+(11:09:28.458) - Info: Config updated.
+(11:09:28.458) - Info: Project (C:/India/SKDF/DropBoxWeb/) loaded.
+(11:09:28.468) - Info: Target (Name:Desktop, Platform:Desktop, Type:Desktop, Hub IP:Local, Default:false) loaded.
+(11:09:28.468) - Info: Target (Name:Desktop, Platform:Desktop, Type:Desktop, Hub IP:Local, Default:false) added.
+(11:09:28.468) - Info: Target (Name:Web, Platform:Web, Type:Any, Hub IP:Local, Default:true) loaded.
+(11:09:28.468) - Info: Target (Name:Web, Platform:Web, Type:Chrome, Hub IP:Local, Default:true) added.
+(11:09:28.473) - Info: UIMap file C:/India/SKDF/DropBoxWeb/UIMap.xls loaded with 1 sheets in 0 mSec
+(11:09:28.478) - Info: Testdata file C:/India/SKDF/DropBoxWeb/Testdata.xls loaded with 3 in 5 mSec
+(11:09:28.483) - Info: Testscript (TC001) loaded with 0 step
+(11:09:28.483) - Info: Testscript file (C:\India\SKDF\DropBoxWeb\Scripts\Script1.xls) loaded with 1 script in 5 mSec
+(11:09:28.483) - Info: (Script1) Loaded
+(11:09:28.493) - Warning: Skipping error handling script execution, File name not exist
+(11:09:28.493) - Info: Testsuite C:/India/SKDF/DropBoxWeb/Testsuite.xlsloaded with 1 suites in 10 mSec
+(11:10:54.836) - Info: Default Web Browser: Chrome
+	http.proxyHost=85.205.122.146
+	http.proxyPort=8080
+	https.proxyHost=85.205.122.146
+	https.proxyPort=8080
+(11:10:54.840) - Info: Proxy enabled.
+(11:10:54.856) - Info: Config updated.
+(11:10:54.865) - Info: Project C:/India/SKDF/DropBoxWeb/DropBoxWeb.prj updated.
+(11:10:54.867) - Info: Project (C:/India/SKDF/DropBoxWeb/) loaded.
+(11:10:54.868) - Info: Target (Name:Desktop, Platform:Desktop, Type:Desktop, Hub IP:Local, Default:false) loaded.
+(11:10:54.868) - Info: Target (Name:Desktop, Platform:Desktop, Type:Desktop, Hub IP:Local, Default:false) added.
+(11:10:54.873) - Info: Target (Name:Web, Platform:Web, Type:Any, Hub IP:Local, Default:true) loaded.
+(11:10:54.873) - Info: Target (Name:Web, Platform:Web, Type:Chrome, Hub IP:Local, Default:true) added.
+(11:10:54.873) - Info: UIMap file C:/India/SKDF/DropBoxWeb/UIMap.xls loaded with 1 sheets in 0 mSec
+(11:10:54.881) - Info: Testdata file C:/India/SKDF/DropBoxWeb/Testdata.xls loaded with 3 in 1 mSec
+(11:10:54.884) - Info: Testscript (TC001) loaded with 0 step
+(11:10:54.884) - Info: Testscript file (C:\India\SKDF\DropBoxWeb\Scripts\Script1.xls) loaded with 1 script in 0 mSec
+(11:10:54.889) - Info: (Script1) Loaded
+(11:10:54.899) - Warning: Skipping error handling script execution, File name not exist
+(11:10:54.899) - Info: Testsuite C:/India/SKDF/DropBoxWeb/Testsuite.xlsloaded with 1 suites in 5 mSec
+(11:10:54.914) - Info: C:/India/SKDF/DropBoxWeb created
+(11:10:54.914) - Info: Reloading
+
+(11:10:54.934) - Info: Project (C:/India/SKDF/DropBoxWeb/) loaded.
+(11:10:54.941) - Info: Target (Name:Desktop, Platform:Desktop, Type:Desktop, Hub IP:Local, Default:false) loaded.
+(11:10:54.944) - Info: Target (Name:Desktop, Platform:Desktop, Type:Desktop, Hub IP:Local, Default:false) added.
+(11:10:54.952) - Info: Target (Name:Web, Platform:Web, Type:Any, Hub IP:Local, Default:true) loaded.
+(11:10:54.955) - Info: Target (Name:Web, Platform:Web, Type:Chrome, Hub IP:Local, Default:true) added.
